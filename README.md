@@ -10,8 +10,13 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Run tests locally executing `npm test`.
+- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [ ] Open the assignment in Canvas and click on the "Set up git" option.
+- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [ ] Make a commit and push it to Github.
+- [ ] Check to see that Codegrade has accepted your git submission.
+
+For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
 ## Project Instructions
 
@@ -21,13 +26,12 @@ In this project you will be given a set of requirements and must design a databa
 
 ### Files to Complete
 
-1. `package.json`
-2. `index.js`
-3. `api/server.js`
-4. `model.js` inside `api/project`, `api/resource` and `api/task`
-5. `router.js` inside `api/project`, `api/resource` and `api/task`
-6. migration file(s)
-7. seed file(s) **optional**
+1. `index.js`
+2. `api/server.js`
+3. `model.js` inside `api/project`, `api/resource` and `api/task`
+4. `router.js` inside `api/project`, `api/resource` and `api/task`
+5. migration file(s)
+6. seed file(s) **optional**
 
 ### Required Dependencies
 
@@ -102,10 +106,12 @@ Build an API inside the `api` folder with endpoints for:
 
 ## Submission format
 
-- [ ] Submit via Codegrade by pushing commits to your `<firstName-lastName>` branch on Github.
-- [ ] Check Codegrade before the deadline to compare its results against your local tests.
+- [ ] Submit via Codegrade by committing and pushing any new changes.
+- [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
+- [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
+- [ ] Check Codegrade for automated feedback.
 - [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
-- [ ] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
+- [ ] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
